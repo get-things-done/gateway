@@ -2,9 +2,9 @@
 
 namespace GetThingsDone\Gateway;
 
+use GetThingsDone\Gateway\Commands\GatewayCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GetThingsDone\Gateway\Commands\GatewayCommand;
 
 class GatewayServiceProvider extends PackageServiceProvider
 {
