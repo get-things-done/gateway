@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GetThingsDone\\PackageSkeletonLaravel\\": "src",
-            "GetThingsDone\\PackageSkeletonLaravel\\Database\\Factories\\": "database/factories"
+            "GetThingsDone\\Gateway\\": "src",
+            "GetThingsDone\\Gateway\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GetThingsDone\\PackageSkeletonLaravel\\Tests\\": "tests"
+            "GetThingsDone\\Gateway\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GetThingsDone\\PackageSkeletonLaravel\\PackageSkeletonLaravelServiceProvider"
+                "GetThingsDone\\Gateway\\GatewayServiceProvider"
             ],
             "aliases": {
-                "PackageSkeletonLaravel": "GetThingsDone\\PackageSkeletonLaravel\\PackageSkeletonLaravelFacade"
+                "Gateway": "GetThingsDone\\Gateway\\GatewayFacade"
             }
         }
     },

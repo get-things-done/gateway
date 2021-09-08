@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace GetThingsDone\Gateway;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \VendorName\Skeleton\Skeleton
+ * @see \GetThingsDone\Gateway\Gateway
  */
-class SkeletonFacade extends Facade
+class GatewayFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

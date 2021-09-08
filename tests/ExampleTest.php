@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace GetThingsDone\Gateway\Tests;
 
 class ExampleTest extends TestCase
 {
